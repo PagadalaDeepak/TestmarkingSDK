@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006A49DD2A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.docc in Sources */ = {isa = PBXBuildFile; fileRef = 006A49DC2A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.docc */; };
+		006A49DE2A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 006A49DB2A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		006A49E42A04F1EC006E4721 /* MKWatermarkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAC75329F99E6700D84111 /* MKWatermarkingManager.swift */; };
+		006A49E52A04F549006E4721 /* MKPWaterMarkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAC76929FB6AA300D84111 /* MKPWaterMarkingError.swift */; };
+		006A49E62A04F54C006E4721 /* MKPLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAC76B29FBB63600D84111 /* MKPLog.swift */; };
+		00FAC73329F124B000D84111 /* MKWatermarkingSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 00FAC73229F124B000D84111 /* MKWatermarkingSDK.docc */; };
+		00FAC73429F124B000D84111 /* MKWatermarkingSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FAC73129F124B000D84111 /* MKWatermarkingSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00FAC75429F99E6700D84111 /* MKWatermarkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAC75329F99E6700D84111 /* MKWatermarkingManager.swift */; };
+		00FAC76A29FB6AA300D84111 /* MKPWaterMarkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAC76929FB6AA300D84111 /* MKPWaterMarkingError.swift */; };
+		00FAC76C29FBB63600D84111 /* MKPLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAC76B29FBB63600D84111 /* MKPLog.swift */; };
+		40FC0FFDA70D91077AAAF5C3 /* Pods_MKWatermarkingSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F139C6B6E63A2A74E55406 /* Pods_MKWatermarkingSDK.framework */; };
+		67066E24F56B5838FF26BF51 /* Pods_MKWatermarkingSDK_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E73A5841B68A82A1F7E61ED /* Pods_MKWatermarkingSDK_tvOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006A49D92A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKWatermarkingSDK_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		006A49DB2A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKWatermarkingSDK_tvOS.h; sourceTree = "<group>"; };
+		006A49DC2A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MKWatermarkingSDK_tvOS.docc; sourceTree = "<group>"; };
+		00FAC72E29F124B000D84111 /* MKWatermarkingSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKWatermarkingSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FAC73129F124B000D84111 /* MKWatermarkingSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKWatermarkingSDK.h; sourceTree = "<group>"; };
+		00FAC73229F124B000D84111 /* MKWatermarkingSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MKWatermarkingSDK.docc; sourceTree = "<group>"; };
+		00FAC75329F99E6700D84111 /* MKWatermarkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKWatermarkingManager.swift; sourceTree = "<group>"; };
+		00FAC76929FB6AA300D84111 /* MKPWaterMarkingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKPWaterMarkingError.swift; sourceTree = "<group>"; };
+		00FAC76B29FBB63600D84111 /* MKPLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKPLog.swift; sourceTree = "<group>"; };
+		1E73A5841B68A82A1F7E61ED /* Pods_MKWatermarkingSDK_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKWatermarkingSDK_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B6DC4D388E9C2683DC1734 /* Pods-MKWatermarkingSDK-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKWatermarkingSDK-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MKWatermarkingSDK-tvOS/Pods-MKWatermarkingSDK-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		9D82ACDDCFD43E3C9F1BE3CB /* Pods-MKWatermarkingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKWatermarkingSDK.release.xcconfig"; path = "Target Support Files/Pods-MKWatermarkingSDK/Pods-MKWatermarkingSDK.release.xcconfig"; sourceTree = "<group>"; };
+		C1B4CA782730B5B023CCDC76 /* Pods-MKWatermarkingSDK-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKWatermarkingSDK-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MKWatermarkingSDK-tvOS/Pods-MKWatermarkingSDK-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CD1E29393F6A85CF6DF04217 /* Pods-MKWatermarkingSDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKWatermarkingSDK-iOS.release.xcconfig"; path = "Target Support Files/Pods-MKWatermarkingSDK-iOS/Pods-MKWatermarkingSDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		D3BB98ED24204FED47B41A30 /* Pods-MKWatermarkingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKWatermarkingSDK.debug.xcconfig"; path = "Target Support Files/Pods-MKWatermarkingSDK/Pods-MKWatermarkingSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		E0F139C6B6E63A2A74E55406 /* Pods_MKWatermarkingSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKWatermarkingSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F288E99278E0F05EDBCD521A /* Pods-MKWatermarkingSDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKWatermarkingSDK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-MKWatermarkingSDK-iOS/Pods-MKWatermarkingSDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		006A49D62A04F1D3006E4721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67066E24F56B5838FF26BF51 /* Pods_MKWatermarkingSDK_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FAC72B29F124B000D84111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FC0FFDA70D91077AAAF5C3 /* Pods_MKWatermarkingSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006A49DA2A04F1D3006E4721 /* MKWatermarkingSDK-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				006A49DB2A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.h */,
+				006A49DC2A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.docc */,
+			);
+			path = "MKWatermarkingSDK-tvOS";
+			sourceTree = "<group>";
+		};
+		00FAC72429F124B000D84111 = {
+			isa = PBXGroup;
+			children = (
+				00FAC73029F124B000D84111 /* MKWatermarkingSDK */,
+				006A49DA2A04F1D3006E4721 /* MKWatermarkingSDK-tvOS */,
+				00FAC72F29F124B000D84111 /* Products */,
+				F435B544F68EC86D67677D80 /* Pods */,
+				1CC4534A5C5FA6A04B1A0AB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00FAC72F29F124B000D84111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00FAC72E29F124B000D84111 /* MKWatermarkingSDK.framework */,
+				006A49D92A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00FAC73029F124B000D84111 /* MKWatermarkingSDK */ = {
+			isa = PBXGroup;
+			children = (
+				00FAC73129F124B000D84111 /* MKWatermarkingSDK.h */,
+				00FAC73229F124B000D84111 /* MKWatermarkingSDK.docc */,
+				00FAC75329F99E6700D84111 /* MKWatermarkingManager.swift */,
+				00FAC76929FB6AA300D84111 /* MKPWaterMarkingError.swift */,
+				00FAC76B29FBB63600D84111 /* MKPLog.swift */,
+			);
+			path = MKWatermarkingSDK;
+			sourceTree = "<group>";
+		};
+		1CC4534A5C5FA6A04B1A0AB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0F139C6B6E63A2A74E55406 /* Pods_MKWatermarkingSDK.framework */,
+				1E73A5841B68A82A1F7E61ED /* Pods_MKWatermarkingSDK_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F435B544F68EC86D67677D80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F288E99278E0F05EDBCD521A /* Pods-MKWatermarkingSDK-iOS.debug.xcconfig */,
+				CD1E29393F6A85CF6DF04217 /* Pods-MKWatermarkingSDK-iOS.release.xcconfig */,
+				D3BB98ED24204FED47B41A30 /* Pods-MKWatermarkingSDK.debug.xcconfig */,
+				9D82ACDDCFD43E3C9F1BE3CB /* Pods-MKWatermarkingSDK.release.xcconfig */,
+				C1B4CA782730B5B023CCDC76 /* Pods-MKWatermarkingSDK-tvOS.debug.xcconfig */,
+				20B6DC4D388E9C2683DC1734 /* Pods-MKWatermarkingSDK-tvOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		006A49D42A04F1D3006E4721 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006A49DE2A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FAC72929F124B000D84111 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FAC73429F124B000D84111 /* MKWatermarkingSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		006A49D82A04F1D3006E4721 /* MKWatermarkingSDK-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 006A49E12A04F1D3006E4721 /* Build configuration list for PBXNativeTarget "MKWatermarkingSDK-tvOS" */;
+			buildPhases = (
+				3B9D864212A0AE86639CAF71 /* [CP] Check Pods Manifest.lock */,
+				006A49D42A04F1D3006E4721 /* Headers */,
+				006A49D52A04F1D3006E4721 /* Sources */,
+				006A49D62A04F1D3006E4721 /* Frameworks */,
+				006A49D72A04F1D3006E4721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MKWatermarkingSDK-tvOS";
+			productName = "MKWatermarkingSDK-tvOS";
+			productReference = 006A49D92A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		00FAC72D29F124B000D84111 /* MKWatermarkingSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FAC73729F124B000D84111 /* Build configuration list for PBXNativeTarget "MKWatermarkingSDK" */;
+			buildPhases = (
+				F9BA22301FCBD84503502B60 /* [CP] Check Pods Manifest.lock */,
+				00FAC72929F124B000D84111 /* Headers */,
+				00FAC72A29F124B000D84111 /* Sources */,
+				00FAC72B29F124B000D84111 /* Frameworks */,
+				00FAC72C29F124B000D84111 /* Resources */,
+				FD81AD9228F06AB39CE96577 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKWatermarkingSDK;
+			productName = "MKWatermarkingSDK-iOS";
+			productReference = 00FAC72E29F124B000D84111 /* MKWatermarkingSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00FAC72529F124B000D84111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					006A49D82A04F1D3006E4721 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					00FAC72D29F124B000D84111 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 00FAC72829F124B000D84111 /* Build configuration list for PBXProject "MKWatermarkingSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00FAC72429F124B000D84111;
+			productRefGroup = 00FAC72F29F124B000D84111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00FAC72D29F124B000D84111 /* MKWatermarkingSDK */,
+				006A49D82A04F1D3006E4721 /* MKWatermarkingSDK-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		006A49D72A04F1D3006E4721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FAC72C29F124B000D84111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B9D864212A0AE86639CAF71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MKWatermarkingSDK-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9BA22301FCBD84503502B60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MKWatermarkingSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD81AD9228F06AB39CE96577 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MKWatermarkingSDK/Pods-MKWatermarkingSDK-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MKWatermarkingSDK/Pods-MKWatermarkingSDK-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MKWatermarkingSDK/Pods-MKWatermarkingSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		006A49D52A04F1D3006E4721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006A49DD2A04F1D3006E4721 /* MKWatermarkingSDK_tvOS.docc in Sources */,
+				006A49E62A04F54C006E4721 /* MKPLog.swift in Sources */,
+				006A49E42A04F1EC006E4721 /* MKWatermarkingManager.swift in Sources */,
+				006A49E52A04F549006E4721 /* MKPWaterMarkingError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FAC72A29F124B000D84111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FAC73329F124B000D84111 /* MKWatermarkingSDK.docc in Sources */,
+				00FAC76C29FBB63600D84111 /* MKPLog.swift in Sources */,
+				00FAC76A29FB6AA300D84111 /* MKPWaterMarkingError.swift in Sources */,
+				00FAC75429F99E6700D84111 /* MKWatermarkingManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		006A49DF2A04F1D3006E4721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B4CA782730B5B023CCDC76 /* Pods-MKWatermarkingSDK-tvOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y6TVXWHZRK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediakind.MKWatermarkingSDK-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		006A49E02A04F1D3006E4721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B6DC4D388E9C2683DC1734 /* Pods-MKWatermarkingSDK-tvOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y6TVXWHZRK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediakind.MKWatermarkingSDK-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Release;
+		};
+		00FAC73529F124B000D84111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		00FAC73629F124B000D84111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		00FAC73829F124B000D84111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BB98ED24204FED47B41A30 /* Pods-MKWatermarkingSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y6TVXWHZRK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediakind.MKWatermarkingSDK-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00FAC73929F124B000D84111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D82ACDDCFD43E3C9F1BE3CB /* Pods-MKWatermarkingSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y6TVXWHZRK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediakind.MKWatermarkingSDK-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		006A49E12A04F1D3006E4721 /* Build configuration list for PBXNativeTarget "MKWatermarkingSDK-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006A49DF2A04F1D3006E4721 /* Debug */,
+				006A49E02A04F1D3006E4721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FAC72829F124B000D84111 /* Build configuration list for PBXProject "MKWatermarkingSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FAC73529F124B000D84111 /* Debug */,
+				00FAC73629F124B000D84111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FAC73729F124B000D84111 /* Build configuration list for PBXNativeTarget "MKWatermarkingSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FAC73829F124B000D84111 /* Debug */,
+				00FAC73929F124B000D84111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00FAC72529F124B000D84111 /* Project object */;
+}
